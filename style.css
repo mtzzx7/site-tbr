@@ -13,7 +13,7 @@
     --bg-color:#080808;
     --second-bg-color:#131313;
     --text-color:white;
-    --main-color:rgb(101, 32, 158);
+    --main-color:rgb(130, 34, 209);
 }
 
 
@@ -113,7 +113,6 @@ section{
 
 .home{
     display: flex;
-    flex-direction: column-reverse;
     align-items: right;
     justify-content: right;
     gap: 15rem;
@@ -141,16 +140,20 @@ span{
 }
 
 .home-content h3{
+    color: #f9f9f9d7;
     margin-bottom:2rem;
     margin-top: 1rem;
-    font-size:3.5rem;
+    font-size:2.5rem;
 }
 
 .home-content h1{
+    color: #f9f9f9d7;
     font-size: 4rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
+    filter: drop-shadow(0 0 10px rgb(119, 30, 170)) drop-shadow(0 0 15px rgb(56, 56, 56));
+    text-shadow: 0 0 20px white 30px white;
 
 }
 
@@ -184,7 +187,7 @@ span{
     width: 4.5rem;
     height: 4.5rem;
     background: transparent;
-    border: 2px solid var(--main-color);
+    border: var(--main-color);
     font-size: 2.5rem;
     border-radius: 50%;
     color: var(--main-color);
@@ -204,7 +207,7 @@ span{
     background: #000000;
     box-shadow: 0 0 15px var(--main-color);
     border-radius: 4.5rem;
-    color:var(--main-color);
+    color: rgba(255, 255, 255, 0.705);
     border:2px solid transparent;
     letter-spacing: 0.1rem;
     font-weight: 600;
@@ -313,6 +316,8 @@ span{
     font-size: 8rem;
     text-align: center;
     margin: 5rem 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2.5px 2.5px rgba(134, 3, 221, 0.452);
 }
 .sobrenós{
  padding: 100px 15px;
@@ -329,6 +334,7 @@ span{
 .equipe img{
     margin-bottom: 10px;
     margin-right: 2px;
+    border-radius: 3px;
 }
 
 .projeto{
@@ -625,7 +631,7 @@ span{
 }
 @media screen and (max-width:600px){
     .home{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .home-img img{
         width: 20%;
@@ -869,7 +875,7 @@ span{
 }
 
 .robô h2 {
-    font-size: 60px;
+    font-size: 36px;
     padding: 10px;
 }
 
