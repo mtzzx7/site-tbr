@@ -386,6 +386,14 @@ span{
     margin-bottom: 5rem;
 
 }
+.equipe-1{
+    text-align: center;
+}
+.equipe-1 img{
+    margin-bottom: 10px;
+    margin-right: 2px;
+    border-radius: 3px;
+}
 .equipe{
     text-align: center;
 }
@@ -452,7 +460,7 @@ span{
     display: block;
 }
 .photo img{
-    border: 2px solid var(--main-color);
+    border: 1px solid var(--main-color);
     border-radius: 0.5rem;
 }
 .timeline-items{
@@ -856,6 +864,9 @@ span{
     .home-img img{
         width: 20%;
     }
+    .testimonial-text{
+        font-size: 12px;
+    }
 }
 
 @media(max-width:895px){
@@ -991,6 +1002,36 @@ span{
     }
     .robô .timeline-items{
         margin-right: 30px;
+    }
+    .testimonial-text{
+        font-size: 14px;
+    }
+    .projeto .photo{
+        margin-right: 90px;
+    }
+    .robô .photo{
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .projeto .photo img{
+        width: 350px;
+        height: 250px;
+    }
+    .robô .photo img{
+        width: 400px;
+        height: 300px;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .home-img{
+        margin-bottom: -90px;
+    }
+    .equipe-1 img{
+        width: 350px;
+    }
+    .equipe img{
+        width: 150px;
     }
 }
 @media(max-width:1285px){
